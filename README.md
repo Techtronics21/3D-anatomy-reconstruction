@@ -1,5 +1,5 @@
 # 3D-anatomy-Reconstruction-
-in this we have make a deep learning model for 3d anatomy reconstruction,where we apllied 3D unet and including skip connections
+in this we have made a deep learning model for 3d anatomy reconstruction,where we leveraged the use cases of 3D Unet with skip connections/ GoogleNet.
 
 | Overview       | Details |
 | -------------- | ------- |
