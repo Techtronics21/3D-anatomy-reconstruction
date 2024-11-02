@@ -1,5 +1,31 @@
-# 3D-anatomy-Reconstruction-
-in this we have made a deep learning model for 3d anatomy reconstruction,where we leveraged the use cases of 3D Unet with skip connections/ GoogleNet.
+# 3D-Anatomy-Reconstruction
+In recent years, remarkable advancements have been achieved in
+computer vision, particularly in the reconstruction of
+two-dimensional (2D) images depicting various scenes, objects,
+and environments. However, transitioning from 2D image
+reconstruction to three-dimensional (3D) image reconstruction
+poses a significant challenge.
+
+Our focus is on reconstructing missing anatomical structures
+within a human body based on a given 3D anatomy. This concept
+finds its inspiration in various biological conditions or traumatic
+incidents that can result in underdeveloped or absent organs in
+the human body. Whether due to mutations during birth,
+inadequate nutrition and diet, accidents, or traumatic injuries, all
+these factors may contribute to an underdeveloped human body.
+
+The objective of our project is to develop a deep learning model
+capable of taking 3D scanned images of cross-sections of the
+human body in medical image formats as input and producing a
+reconstructed version of the image as output.
+
+The inherent challenge lies in the fact that research in this specific
+field is still ongoing, with only a few selective deep learning
+models and papers focusing on 3D images. However, the ultimate
+aim is to create a model that can accurately reconstruct human
+anatomy and potentially facilitate biological 3D printing.
+
+We have made a deep learning model for 3d anatomy reconstruction, where we leveraged the use cases of 3D Unet with skip connections/ GoogleNet.
 
 | Overview       | Details |
 | -------------- | ------- |
@@ -18,9 +44,9 @@ in this we have made a deep learning model for 3d anatomy reconstruction,where w
     ```
 2. Run the `code.ipynb` file.
 ![Result from UNET where left is incomplete image and right one is complete one](https://github.com/krishmittal1301/3D-anatomy-completer-/blob/main/Unet/WhatsApp%20Image%202024-05-07%20at%2010.55.53_28ebe640.jpg)
-**Figure: Result from UNET where the left is the incomplete image and the right one is the complete one.**
+**Figure: Result from UNET where the left is the complete image and the right one is the incomplete one.**
 
 
 ## Similarly we can run the code for skip connections and GoogleNet.
 ![Result from UNET where left is incomplete image and right one is complete one](https://github.com/krishmittal1301/3D-anatomy-completer-/blob/main/Unet%2BSkip/WhatsApp%20Image%202024-05-14%20at%2016.10.08_2b9a161b.jpg)
-**Figure: Result from Unet+Skip connections.**
+**Figure: Result from GoogleNet+Skip connections. The left is the incomplete image and the right one is the complete one.**
