@@ -21,9 +21,7 @@ reconstructed version of the image as output.
 
 The inherent challenge lies in the fact that research in this specific
 field is still ongoing, with only a few selective deep learning
-models and papers focusing on 3D images. However, the ultimate
-aim is to create a model that can accurately reconstruct human
-anatomy and potentially facilitate biological 3D printing.
+models and papers focusing on 3D images.
 
 We have made a deep learning model for 3d anatomy reconstruction, where we leveraged the use cases of 3D Unet with skip connections/ GoogleNet.
 
@@ -43,10 +41,18 @@ We have made a deep learning model for 3d anatomy reconstruction, where we lever
     cd Unet
     ```
 2. Run the `code.ipynb` file.
+
+## Results from the Unet
+
 ![Result from UNET where left is incomplete image and right one is complete one](https://github.com/krishmittal1301/3D-anatomy-completer-/blob/main/Unet/WhatsApp%20Image%202024-05-07%20at%2010.55.53_28ebe640.jpg)
 **Figure: Result from UNET where the left is the complete image and the right one is the incomplete one.**
 
-
 ## Similarly we can run the code for skip connections and GoogleNet.
+
 ![Result from UNET where left is incomplete image and right one is complete one](https://github.com/krishmittal1301/3D-anatomy-completer-/blob/main/Unet%2BSkip/WhatsApp%20Image%202024-05-14%20at%2016.10.08_2b9a161b.jpg)
 **Figure: Result from GoogleNet+Skip connections. The left is the incomplete image and the right one is the complete one.**
+
+## Loss Comparison of all the models
+
+![Result](https://github.com/Techtronics21/3D-anatomy-reconstruction/blob/main/Losses_Comparison.png)
+**Figure: Results indicate that GoogleNet + Skip connections was the best suited model**
