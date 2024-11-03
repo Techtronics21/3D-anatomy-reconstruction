@@ -54,5 +54,6 @@ We have made a deep learning model for 3d anatomy reconstruction, where we lever
 
 ## Loss Comparison of all the models
 
-![Result](https://github.com/Techtronics21/3D-anatomy-reconstruction/blob/main/Losses_Comparison.png)
+![Result](https://github.com/Techtronics21/3D-anatomy-reconstruction/blob/main/Loss_comparison.png)
+
 **Figure: Results indicate that GoogleNet + Skip connections was the best suited model**
